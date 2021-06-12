@@ -1,0 +1,581 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May 25 15:16:31 2021
+# Process ID: 16520
+# Current directory: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17820 C:\Documents\Sophomore2\Digital_logic_and_digital_system\DLDS\docs\Experiments\Lab3\dig_clock\dig_clock.xpr
+# Log file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/vivado.log
+# Journal file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/bin2bcd'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Softwares/Vivado2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 861.387 ; gain = 138.121
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_cnt.sv] -no_script -reset -force -quiet
+remove_files  C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_cnt.sv
+close [ open C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv w ]
+add_files C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv w ]
+add_files -fileset sim_1 C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+WARNING: [VRFC 10-986] literal value truncated to fit in 5 bits [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv:35]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1546] variable EnClk might have multiple concurrent drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [VRFC 10-1146] non-net variable cannot be connected to inout port sys_clk [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 936.883 ; gain = 10.398
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1546] variable EnClk might have multiple concurrent drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [VRFC 10-1146] non-net variable cannot be connected to inout port sys_clk [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close [ open C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_a.sv w ]
+add_files C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_a.sv
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_a.sv] -no_script -reset -force -quiet
+remove_files  C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_a.sv
+file delete -force C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_a.sv
+close [ open C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_d.sv w ]
+add_files C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_d.sv
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_d.sv] -no_script -reset -force -quiet
+remove_files  C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_d.sv
+file delete -force C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_d.sv
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1546] variable EnClk might have multiple concurrent drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [VRFC 10-1146] non-net variable cannot be connected to inout port sys_clk [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1546] variable EnClk might have multiple concurrent drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [VRFC 10-1146] non-net variable cannot be connected to inout port sys_clk [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1546] variable EnClk might have multiple concurrent drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [VRFC 10-1146] non-net variable cannot be connected to inout port sys_clk [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv:15]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1658] variable posedge_flag is driven by invalid combination of procedural drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:27]
+WARNING: [VRFC 10-2066] posedge_flag driven by this always_ff block should not be driven by any other process [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1658] variable posedge_flag is driven by invalid combination of procedural drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:27]
+WARNING: [VRFC 10-2066] posedge_flag driven by this always_ff block should not be driven by any other process [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1658] variable posedge_flag is driven by invalid combination of procedural drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:27]
+WARNING: [VRFC 10-2066] posedge_flag driven by this always_ff block should not be driven by any other process [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1658] variable posedge_flag is driven by invalid combination of procedural drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:27]
+WARNING: [VRFC 10-2066] posedge_flag driven by this always_ff block should not be driven by any other process [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1658] variable posedge_flag is driven by invalid combination of procedural drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:27]
+WARNING: [VRFC 10-2066] posedge_flag driven by this always_ff block should not be driven by any other process [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1658] variable posedge_flag is driven by invalid combination of procedural drivers [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:27]
+WARNING: [VRFC 10-2066] posedge_flag driven by this always_ff block should not be driven by any other process [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 25 18:37:32 2021...

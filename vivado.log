@@ -1,0 +1,110 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun 10 17:17:16 2021
+# Process ID: 22320
+# Current directory: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13724 C:\Documents\Sophomore2\Digital_logic_and_digital_system\DLDS\docs\Experiments\Lab3\dig_clock\dig_clock.xpr
+# Log file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/vivado.log
+# Journal file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/bin2bcd'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Softwares/Vivado2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 808.430 ; gain = 65.168
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Softwares/Vivado2018/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'dig_clock_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dig_clock_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/FourLights.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourLights
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/an_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/clken.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clken
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/continue_stop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module continue_stop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/edge_det.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_det
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/min_sec_clk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module min_sec_clk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sources_1/new/x7seg_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x7seg_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Softwares/Vivado2018/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto ec76e07e26d845b386e32e962ec4ce02 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dig_clock_tb_behav xil_defaultlib.dig_clock_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clken
+Compiling module xil_defaultlib.an_ctrl
+Compiling module xil_defaultlib.edge_det
+Compiling module xil_defaultlib.continue_stop
+Compiling module xil_defaultlib.min_sec_clk
+Compiling module xil_defaultlib.bin2bcd
+Compiling module xil_defaultlib.bin2bcd_0
+Compiling module xil_defaultlib.x7seg_d
+Compiling module xil_defaultlib.FourLights
+Compiling module xil_defaultlib.dig_clock
+Compiling module xil_defaultlib.dig_clock_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot dig_clock_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "dig_clock_tb_behav -key {Behavioral:sim_1:Functional:dig_clock_tb} -tclbatch {dig_clock_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source dig_clock_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time   0ns:sys_rst_n = 0, an = 1111, a_to_g = 11000000
+At time 100ns:sys_rst_n = 1, an = 1111, a_to_g = 11000000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'dig_clock_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 827.559 ; gain = 14.219
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 10 20:18:10 2021...

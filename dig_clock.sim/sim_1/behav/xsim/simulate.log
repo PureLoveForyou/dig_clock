@@ -1,0 +1,4 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+At time   0ns:sys_rst_n = 0, an = 1111, a_to_g = 11000000
+At time 100ns:sys_rst_n = 1, an = 1111, a_to_g = 11000000

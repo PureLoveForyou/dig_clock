@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 27 10:22:23 2021
+# Process ID: 18644
+# Current directory: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4180 C:\Documents\Sophomore2\Digital_logic_and_digital_system\DLDS\docs\Experiments\Lab3\dig_clock\dig_clock.xpr
+# Log file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/vivado.log
+# Journal file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab3/dig_clock/dig_clock.xpr
+update_compile_order -fileset sources_1
